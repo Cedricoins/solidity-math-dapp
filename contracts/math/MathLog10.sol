@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
 library MathLog10 {
     uint256 constant LOG10_2 = 30102999566; // log10(2)*1e10 approx
 
