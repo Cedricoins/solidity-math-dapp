@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
 library MathModExp {
     function modExp(uint256 base, uint256 exp, uint256 mod) public pure returns (uint256) {
         uint256 result = 1;
